@@ -5,3 +5,10 @@ front-end che termina con la produzione dell'IR
 Aggiungendo l'opzione -v  viene anche prodotto (su stdout) una rappresentazione dell'AST.
 
 E' possibile anche creare un file oggetto (opzione -o <nomefile>).
+
+Esecuzione:
+
+make
+./kfe -o compiler test.k
+clang++ main.cc compiler.o -o main
+./main
