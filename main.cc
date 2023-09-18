@@ -24,15 +24,21 @@ extern "C" double test(double a) {
 //   double func(double);
 // }
 
-// int main() {
-//   // double x[] = {41, 42, 43, 44};
-//   for(int i = 0; i < 0; i++) {
-//     cout<<"ciao"<<endl;
-//   }
-//   double x;
-//   cout<<"Inserisci x: "<<endl;
-//   cin>>x;
-//   // cout<<"Il valore è "<<func(x)<<endl;
-//   func(x);
-//   return 0;
-// }
+ int main() {
+    double x[] = {41, 42, 43, 44};
+   for(int i = 0; i < 0; i++) {
+     cout<<"hello"<<endl;
+   }
+
+   
+   double x;
+   cout<<"Inserisci x: "<<endl;
+
+   
+   cin>>x;
+   cout<<"Il valore è "<<func(x)<<endl;
+
+   
+   func(x);
+   return 0;
+}
